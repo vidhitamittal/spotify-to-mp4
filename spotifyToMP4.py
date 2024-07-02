@@ -29,7 +29,7 @@ driver.close()
 
 df = pd.DataFrame(data, columns=['Song Title','Artist'])
 
-for i in range(1,len(titles)):
+for i in range(1,len(titles)+1):
     videosSearch = VideosSearch(f"{df['Song Title'][i]}+{df['Artist'][i]} official video", limit = 1)
 
     searchResult = videosSearch.result()
