@@ -1,3 +1,3 @@
 # spotify-to-mp4
-download songs in your spotify playlist as mp4 videos from youtube
-it web scrapes the spotify playlist and downloads the mp4 version of the songs from youtube to the directory you ran the code from 
+This project allows you to download songs from your Spotify playlist as MP4 videos from YouTube. 
+The program web scrapes the Spotify playlist and downloads the MP4 versions of the songs from YouTube to the directory where you run the code.
